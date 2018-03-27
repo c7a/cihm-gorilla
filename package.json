@@ -1,0 +1,31 @@
+{
+  "name": "cihm-gorilla",
+  "version": "1.0.0",
+  "description": "Simple, temporary API for accessing Canadiana metadata",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "./node_modules/nodemon/bin/nodemon.js -w src -e js -x 'yarn run start'"
+  },
+  "repository": "https://github.com/c7a/cihm-gorilla",
+  "author": "Sascha Adler <sascha.adler@canadiana.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "kcors": "^2.2.1",
+    "koa": "^2.5.0",
+    "koa-json-error": "^3.1.2",
+    "koa-route": "^3.2.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "require-env": "^0.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.17.1"
+  }
+}

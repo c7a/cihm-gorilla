@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  cihm-gorilla:
+    image: cihm-gorilla:latest
+    container_name: cihm-gorilla
+    command: yarn run start
