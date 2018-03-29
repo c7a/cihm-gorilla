@@ -24,7 +24,7 @@ const collections = ['online', 'eco', 'heritage']
 app.use(router.get('/', async (ctx) => {
   ctx.body = {
     version: '1.0',
-    notes: 'This API is temporary.',
+    repository: 'https://github.com/c7a/cihm-gorilla',
     collections: collections.map(id => `${localEndpoint.href}collection/${id}`)
   }
 }))

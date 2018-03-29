@@ -9,7 +9,7 @@ Gorilla is a temporary API for accessing and harvesting Canadiana metadata.
 #### Response JSON Object
 
 * **version**: API version. Currently `1.0`
-* **readme**: A link to this README.
+* **repository**: A link to this repository.
 * **collections**: A list of URIs corresponding to Canadiana collections made accessible through this API.
 
 ### `GET /collection/:id`
