@@ -6,7 +6,7 @@ module.exports = class Couch {
       baseUrl: endpoint.href,
       headers: { Accept: 'application/json' },
       json: true,
-      timeout: 5000,
+      timeout: 60000,
       method: 'GET'
     })
   }
