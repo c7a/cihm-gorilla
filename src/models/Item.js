@@ -14,7 +14,7 @@ module.exports = class Item extends Document {
     if (data.pkey) {
       this.parent = {
         uri: this.uriForType('series', data.pkey),
-        label: this.plabel
+        label: data.plabel
       }
     }
 
